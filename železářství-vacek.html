@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background: linear-gradient(to right,rgb(64, 63, 63), rgb(138, 137, 137));
+        }
+        
+      a {
+       color: rgb(0, 0, 0);
+       }
+
+       .midle {
+            text-align: center;
+        }
+
+                /* dání odkazů od sebe */
+                .link {
+            display: inline-block;
+            margin-right: 40px; /* Vzdálenost mezi odkazy */
+        }
+
+        .ramecek-odkazu{
+            color: azure;
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 2px solid azure;
+            border-radius: 5px;
+        }
+
+        .obrazek-text {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: azure;
+            text-align: center;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        img {
+            border-radius: 10%;
+        }
+
+        .text {
+            flex-grow: 1;
+        }
+
+        .container-uvod{
+            width: 50%;
+            margin: 0 auto;
+            background-color: azure;
+            border-radius: 10px;
+            align-items: center;
+
+        }
+
+        .kde-nas-najdete{
+            width: 50%;
+            margin: 0 auto;
+            max-width: 0 auto;
+            background-color: azure;
+            border-radius: 10px;
+            align-items: center;
+            
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 10%;
+        }
+
+        .fotogalerie{
+            width: 50%;
+            margin: 0 auto;
+            max-width: 0 auto;
+            background-color: azure;
+            border-radius: 10px;
+            align-items: center;
+        }
+
+    </style>
+    
+</head>
+<body>
+
+    <div class="obrazek-text">
+        <img src="zelez1.png" alt="Obrázek 1" width="100" height="100">
+        <div class="text">
+            <h1>Železářství Vacek</h1>
+        </div>
+        <img src="zelezarstvi3.jpg.png" alt="Obrázek 2" width="100" height="100">
+    </div>
+    
+    <hr width="100%" size="6" noshade>
+    <div>
+        <a href="index.html" class="link, ramecek-odkazu"><strong>Železářství-Vacek-úvod</strong></a> <a href="Otevírací-doba.html" class="link, ramecek-odkazu"><strong>Otevírací doba</strong> </a> <a href="Kontakt.html" class="link, ramecek-odkazu"> <strong>Kontakt</strong></a>
+    </div>
+    <hr width="100%" size="6" noshade>
+
+    <div class="container-uvod">
+        <p>Stránka je ve vývoji, přidáme úvod příště</p>
+
+    </div>
+    
+<div class="kde-nas-najdete">
+    <h3 class="midle">Kde nás najdete</h3>
+    <p class="midle">Najdete nás v Lomnici nad Popelkou na Husově náměstí na adrese čp 10</p>
+    <img class="mapa-obrazek-stred" src="zelezarstvi-mapa.png" width="500" height="300">
+</div>
+
+<div class="fotogalerie">
+    <h3 class="midle">Fotogalerie</h3>
+    <img src="zfot1.png" width="500" height="300">
+    <hr width="100%" size="5">
+    <img src="zfot2.png" width="400" height="250">
+</div>
+</body>
+</html>
